@@ -128,8 +128,8 @@
   },
   "readme": "./README.md",
   "scripts": {
-    "dev": "node api.js && rm -rf dist && vite",
-    "build": "node api.js && tsc && vite build",
+    "dev": "rm -rf dist && vite",
+    "build": "tsc && vite build",
     "test": "vitest",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "bun run lint:firefox",
